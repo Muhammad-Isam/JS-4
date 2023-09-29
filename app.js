@@ -42,50 +42,50 @@
 
 // QUESTION 6
 
-var c1 = "Counting: ";
-for (var i = 1; i <= 15; i++) {
-    c1 += i;
-    if (i < 15) {
-        c1 += ", ";
-    }
-}
-document.write(c1 + "<br>");
+// var c1 = "Counting: ";
+// for (var i = 1; i <= 15; i++) {
+//     c1 += i;
+//     if (i < 15) {
+//         c1 += ", ";
+//     }
+// }
+// document.write(c1 + "<br>");
 
-var c2 = "Reverse counting: ";
-for (var i = 10; i >= 1; i--) {
-    c2 += i;
-    if (i > 1) {
-        c2 += ", ";
-    }
-}
-document.write(c2 + "<br>");
+// var c2 = "Reverse counting: ";
+// for (var i = 10; i >= 1; i--) {
+//     c2 += i;
+//     if (i > 1) {
+//         c2 += ", ";
+//     }
+// }
+// document.write(c2 + "<br>");
 
-var even = "Even: ";
-for (var i = 0; i <= 20; i = i + 2) {
-    even += i;
-    if (i < 20) {
-        even += ", ";
-    }
-}
-document.write(even + "<br>");
+// var even = "Even: ";
+// for (var i = 0; i <= 20; i = i + 2) {
+//     even += i;
+//     if (i < 20) {
+//         even += ", ";
+//     }
+// }
+// document.write(even + "<br>");
 
-var odd = "Odd: ";
-for (var i = 1; i <= 19; i += 2) {
-    odd += i;
-    if (i < 20) {
-        odd += ", ";
-    }
-}
-document.write(odd + "<br>");
+// var odd = "Odd: ";
+// for (var i = 1; i <= 19; i += 2) {
+//     odd += i;
+//     if (i < 20) {
+//         odd += ", ";
+//     }
+// }
+// document.write(odd + "<br>");
 
-var series = "Series: ";
-for (var i = 2; i <= 20; i += 2) {
-    series += i + "k";
-    if (i < 20) {
-        series += ", ";
-    }
-}
-document.write(series);
+// var series = "Series: ";
+// for (var i = 2; i <= 20; i += 2) {
+//     series += i + "k";
+//     if (i < 20) {
+//         series += ", ";
+//     }
+// }
+// document.write(series);
 
 // QUESTION 7
 
